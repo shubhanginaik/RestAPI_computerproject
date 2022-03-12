@@ -57,7 +57,7 @@ module.exports = class Datastorage{
                 }
             } 
             catch(err){
-                reject(MESSAGES.PROGRAM_ERROR)
+                reject(MESSAGES.PROGRAM_ERROR())
             }
         })
     } // end of get
